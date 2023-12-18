@@ -1,0 +1,65 @@
+
+html{
+    background-color: green;
+}
+p{
+    margin: 0;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+.carta{
+    background-color: white;
+    width: 25%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+   
+    margin:5% 30%;
+    padding: 0;
+    gap: 26px;
+    
+   
+    
+border-radius: 20px;
+}
+.carta__corazon1{
+    margin-top: 0 !important;
+    font-size: 8em;
+    color: red;
+    text-align: left ;
+    padding-left: 5%;
+     
+}
+.carta__numero{
+     margin: 0;
+    font-size: 12em;
+    color: red;
+    text-align: center;
+    
+}
+.carta__corazon2{
+    margin: 0;
+    font-size: 8em;
+    color: red;
+    text-align: right; 
+   padding-right: 5%;
+  
+   /* transform: rotate(180deg); */
+   transform: scaleY(-1);
+}
+.boton{
+   
+    height: 60px;
+    padding: 15px 20px 20px 20px;
+    font-size: 1.5em;
+    margin-top: -15px;
+    cursor: pointer;
+
+
+}
